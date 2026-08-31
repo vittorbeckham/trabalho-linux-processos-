@@ -27,7 +27,7 @@
 ---
   ## Ambiente Utilizado
 
-- **Distribuição Linux:** Ubuntu
+- **Distribuição Linux:** Ubuntu 
 - **Versão:** 25.04 (Plucky Puffin) (64-bit)
 - **Ambiente:** Máquina Virtual (VirtualBox)
 
