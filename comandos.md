@@ -20,3 +20,45 @@
 ### Comando para verificar as threads
 *ps -L -p + PID*
 >comando usado na atividade
+>> _ps -L -p 5009_
+>> 
+>> _ps -L -P 5378_
+
+### Comando para Explorar o diretório
+*cat /proc/+PID/status*
+>comando usando na atividade
+>>cat  /proc/5009/status
+>>
+>>cat  /proc/5378/status
+
+### Comando usados para aplica sinais 
+*kill -STOP + PID*
+
+*kill -CONT + PID*
+
+*renice + valor + PID*
+
+*kill -TERM + PID*
+>comando usado na atividade
+>>kill -STOP 5009
+>>
+>>kill -STOP 5378
+>>
+>>kill -CONT 5009
+>>
+>>kill -CONT 5378
+>>
+>>renice 1 -p 5009
+>>
+>>renice 1 -p 5378
+>>
+>>kill -TERM 5009
+>>
+>>kill -TERM 5378
+
+#Outros comando usando ( para verificar o nice e %cpu + %mem)
+*top -p + PID*
+>comando usado na atividade
+>>top -p 5009
+>>
+>>top -p 5009
