@@ -56,7 +56,7 @@
 >>
 >>kill -TERM 5378
 
-#Outros comando usando ( para verificar o nice e %cpu + %mem)
+### Outros comando usando ( para verificar o nice e %cpu + %mem)
 *top -p + PID*
 >comando usado na atividade
 >>top -p 5009
